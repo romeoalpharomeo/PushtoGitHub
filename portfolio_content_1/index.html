@@ -10,18 +10,25 @@
     </head>
     <body>
         <h1>Ryan Reynolds</h1>
+        <div id="mypic">
         <img src="mypicture.jpg" alt="Picture of Ryan Reynolds(The Programmer, Not The Actor)">
+        </div>
         <br>
         <br>
-        <img src="ghlogo.png" alt="GitHub Logo">
-        <a href="https://github.com/romeoalpharomeo" target="_blank">My Github Home Page</a>
-        <img src="lilogo.png" alt="LinkedIn Logo">
-        <a href="https://www.linkedin.com/in/ryan-a-reynolds1/" target="_blank">My LinkedIn Home Page</a>
-        <img src="gmaillogo.png" alt="Gmail Logo">
-        <a href="mailto:ryan.company.no1@gmail.com">Email Me</a>
+        <div id="navbar">
+            <img src="ghlogo.png" alt="GitHub Logo">
+            <a href="https://github.com/romeoalpharomeo" target="_blank">My Github Home Page</a>
+            <img src="lilogo.png" alt="LinkedIn Logo">
+            <a href="https://www.linkedin.com/in/ryan-a-reynolds1/" target="_blank">My LinkedIn Home Page</a>
+            <img src="gmaillogo.png" alt="Gmail Logo">
+            <a href="mailto:ryan.company.no1@gmail.com">Email Me</a>
+        </div>
+        <br>
+        <h2>My Portfolio</h2>
+            <p>TBD...</p>
         <br>
         <h2>Technologies</h2>
-        <table>
+        <table id="technologytable">
             <tr>
                 <th>Front End</th>
                 <th>Python</th>
@@ -53,19 +60,20 @@
         </table>
         <br>
         <h2>Contact Me</h2>
-        <div>
-            <label>Full Name: </label>
-            <input type="text" name="full_name">
-            <lable>Email Address: </lable>
-            <input type="text" name="email">
-        </div>
-        <br>
-        <div>
-            <label>Message: </label>
-            <br>
-            <textarea name="message" cols="40" rows="4"></textarea>
-        </div>
+        <div class="contact">
+            <div id="contactinfo">
+                <label>Full Name: </label>
+                <input type="text" name="full_name">
+                <lable>Email Address: </lable>
+                <input type="text" name="email">
+            </div>
+            <div id="messagearea">
+                <label>Message: </label>
+                <br>
+                <textarea name="message" cols="40" rows="4"></textarea>
+            </div>
         <br>
         <input type="submit" value="Send Message">
+        </div>
     </body>
 </html>

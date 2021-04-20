@@ -1,9 +1,58 @@
-table, th, td {
+/* h1 {
+    text-align: center;
+}
+
+#mypic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#navbar {
+    background-color: #F4AF00;
+    align-self: center;
+    border-radius: 10px;
+    width: 650px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#technologytable {
     border: 2px solid black;
     border-radius: 10px;
     background-color: blueviolet;
     color: white;
     text-align: center;
     font-family: 'Teko', sans-serif;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactinfo {
+    align-items: center;
+    justify-content: center;
+}
+
+#messagearea {
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+ */
