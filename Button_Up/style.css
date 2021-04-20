@@ -1,0 +1,35 @@
+div{
+    margin: 50px;
+}
+
+#search{
+    border: 2px solid;
+    border-color: #35D6B0;
+    border-radius: 15px;
+    color: #35D6B0;
+    font-weight: bold;
+    padding: 5px 40px 5px;
+    margin: 5px;
+}
+
+#add{
+    background-color: #35D6B0;
+    border: solid;
+    border-color: #35D6B0;
+    color: white;
+    font-size: 26px;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#createnew{
+    background-color: #0089D3;
+    border: 2px solid;
+    border-color: black;
+    color: white;
+    padding: 5px 40px 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px black;
+}
