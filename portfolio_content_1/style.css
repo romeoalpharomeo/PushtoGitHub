@@ -1,58 +1,40 @@
-/* h1 {
-    text-align: center;
+#myname {
+    height: 70px;
+    width: 300px;
+    background-color: #8E1ADB;
+    border: 10px solid black;
+    border-radius: 5px;
+    font-family: 'Germania One', cursive;
+    color: white;
+    /* This moved the block to the center of the screen */
+    margin: auto;
+    display: flex;
+    /* These two items moved the text within the block to the center across the main and cross axis */
+    align-items: center;
+    justify-content: center;
+}
+
+.spacer {
+    background-color: white;
+    height: 10px;
 }
 
 #mypic {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
 }
 
 #navbar {
-    background-color: #F4AF00;
-    align-self: center;
-    border-radius: 10px;
-    width: 650px;
+    background-color: purple;
     height: 100px;
+    margin: auto;
     display: flex;
+    /* These two items moved the text within the block to the center across the main and cross axis */
     align-items: center;
     justify-content: center;
 }
-
-#technologytable {
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: blueviolet;
-    color: white;
-    text-align: center;
-    font-family: 'Teko', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#contactinfo {
-    align-items: center;
-    justify-content: center;
-}
-
-#messagearea {
-    height: fit-content;
-    align-items: center;
-    justify-content: center;
-}
- */
