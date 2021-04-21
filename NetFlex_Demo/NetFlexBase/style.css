@@ -37,7 +37,8 @@ body {
 }
 
 #searchbar {
-    color: transparent;
+    background-color: black;
+    width: 200px;
 }
 
 h2 {
@@ -52,6 +53,8 @@ h5:hover {
 .genre {
     background-color: black;
     margin: 5px 0px;
+    
+    padding: 15px;
 }
 
 .main {
@@ -74,8 +77,8 @@ img {
     margin: 0px 5px;
 }
 
-.show:hover {
-    box-shadow: 0px 0px 5px #a19c9c;
+img:hover {
+    box-shadow: 0px 0px 15px #a19c9c;
 }
 
 h4 {

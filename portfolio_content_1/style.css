@@ -1,40 +1,73 @@
-#myname {
-    height: 70px;
-    width: 300px;
-    background-color: #8E1ADB;
-    border: 10px solid black;
-    border-radius: 5px;
+* {
     font-family: 'Germania One', cursive;
-    color: white;
-    /* This moved the block to the center of the screen */
-    margin: auto;
-    display: flex;
-    /* These two items moved the text within the block to the center across the main and cross axis */
-    align-items: center;
-    justify-content: center;
+    color: whitesmoke;
 }
 
-.spacer {
-    background-color: white;
-    height: 10px;
-}
-
-#mypic {
-    height: 200px;
-    width: 200px;
+.container {
     background-color: black;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 1000px;
+    margin: 5px;
+    padding: 10px;
 }
 
-#navbar {
-    background-color: purple;
-    height: 100px;
-    margin: auto;
+.nav {
+    background-color: black;
+    height: 80px;
     display: flex;
-    /* These two items moved the text within the block to the center across the main and cross axis */
+    justify-content: space-between;
+}
+
+#navright {
+    background-color: black;
+    width: 700px;
+    display: inherit;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#navleft {
+    background-color: black;
+    display: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.mypic {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+#face {
+    box-shadow: 0px 0px 75px rgb(250, 188, 18);
+    border-radius: 50%;
+}
+
+.titlecertifications {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.badgescertifications {
+    background-color: blanchedalmond;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#secplus {
+    height: 150px;
+    width: 150px;
 }
