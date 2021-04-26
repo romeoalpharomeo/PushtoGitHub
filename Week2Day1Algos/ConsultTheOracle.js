@@ -21,7 +21,7 @@ function consultOracle() {
         "Outlook not so good.",
         "Very doubtful."
     ];
-    var answer = Math.floor(Math.random() * (lifesAnswers.length - 1) + 1);
+    var answer = Math.floor(Math.random() * (lifesAnswers.length) + 1);
     return lifesAnswers[answer]; 
 }
 var oracleAnswer = consultOracle();
