@@ -1,0 +1,25 @@
+html {
+    background: linear-gradient(to top, cornflowerblue, thistle) fixed;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: palevioletred;
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 40px;
+}
+
+button:active {
+    background-color: #ea00ff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
