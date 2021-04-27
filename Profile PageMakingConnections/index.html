@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -34,7 +35,7 @@
                         <p id="caption">Master of Shadows and the Internet!</p>
                     </div>
                     <img id="gearicon" src="gear.png" alt="Edit Profile icon">
-                    <a id="editprofile" href="#">edit profile</a>
+                    <a id="editprofile" onclick="changeName()" href="#">edit profile</a>
                 </div>
                 <div id="education">
                     <div id="educationbanner">
@@ -53,10 +54,16 @@
                     <div id="connectrequestsbanner">
                         <h3>Connection Requests</h3>
                     </div>
-                    <img id="profilepic" src="arry-s.jpg" alt="Arry Pic">
-                        <h5>Arry S</h5>
-                        <img id="accept" src="accept-circle.png" alt="Accept Connection">
-                        <img id="close" src="close-circle.png" alt="Deny Connection">
+                    <div class="request1">
+                        <div class="request-left">
+                        <img id="profilepicrequest" src="arry-s.jpg" alt="Arry Pic">
+                        <h3>Arry S</h3>
+                        </div>
+                        <div class="request-right">
+                        <img id="accept" onclick="removeRequest()" src="accept-circle.png" alt="Accept Connection">
+                        <img id="close" onclick="removeRequest()" src="close-circle.png" alt="Deny Connection">
+                        </div>
+                    </div>
                 </div>
                 <div id="yourconnects">
                     <div id="yourconnectsbanner">
@@ -83,6 +90,5 @@
             </div>
         </div>
     </div>
-    
 </body>
 </html>

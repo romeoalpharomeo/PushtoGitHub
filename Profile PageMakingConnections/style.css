@@ -171,26 +171,25 @@
     align-items: center;
 }
 
-#connectrequests h3, h2 {
+#connectrequests h2 {
     margin: 0px 25px;
 }
 
-#connectrequests h5 {
-    font-size: 18px;
-    position: absolute;
-    margin: -45px 70px;
+.request1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#accept {
-    position: absolute;
-    margin: 10px 150px;
-    height: 40px;
-    width: 40px;
+.request-left {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin-left: 10px;
 }
 
-#close {
-    position: absolute;
-    margin: 10px 200px;
+#accept, #close {
     height: 40px;
     width: 40px;
 }
@@ -240,4 +239,9 @@
     border-radius: 50%;
 }
 
+#profilepicrequest {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
 
