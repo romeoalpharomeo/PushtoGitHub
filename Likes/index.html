@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="topbanner">Network</h1>
+    <div class="container">
+        <div class="row">
+            <div class="avatar">
+                <div class="profileinfo">
+                    <img id="profilepic" src="tpic.jpg" alt="Picture of Tori">
+                    <p><a href="#">Add an Avatar</a></p>
+                    <h3>Tori Green</h3>
+                </div>
+            </div>
+            <div class="posts">
+                <h1>Your Feed</h1>
+                <div id="post1">
+                    <div class="header">
+                    <h2>Tori Green</h2>
+                    <p id="numberOfLikes1">0 Like(s)</p>
+                    <button type="button" onclick="countLikes1()">Like</button>
+                    </div>
+                    <p id="posttext">Just moved to Florida!</p>
+                </div>
+                <div id="post2">
+                    <div class="header">
+                    <h2>Tammy Johnson</h2>
+                    <p id="numberOfLikes2">0 Like(s)</p>
+                    <button type="button" onclick="countLikes2()">Like</button>
+                    </div>
+                    <p id="posttext">Check out this video! <a href="#">link</a></p>
+                </div>
+                <div id="post3">
+                    <div class="header">
+                    <h2>Breanne Demir</h2>
+                    <p id="numberOfLikes3">0 Like(s)</p>
+                    <button type="button" onclick="countLikes3()">Like</button>
+                    </div>
+                    <p id="posttext">Wow, this is cool <a href="#">link here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
