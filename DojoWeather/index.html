@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>DojoWeather</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>DojoWeather</h1>
+        <div class="nav-right">
+            <a onclick="alert('Weather Report Loading')" href="#">Burbank</a>
+            <a onclick="alert('Weather Report Loading')" href="#">Chicago</a>
+            <a onclick="alert('Weather Report Loading')" href="#">Dallas</a>
+        </div>
+    </div>
+    <div class="title">
+        <h1>San Jose</h1>
+        <div class="title-right">
+            <label for="temps">show temperature in</label>
+            <select onchange="convertToFahrenheit()" name="temps" id="temps">
+                <option value="Fahrenheit">&#x2109;</option>
+                <option value="Celsius">&#176;C</option>
+            </select>
+        </div>
+    </div>
+    <div class="weekreport">
+        <div class="day">
+            <h2>Today</h2>
+            <img class="weathericon" src="some_rain.png" alt="A Cloud with Rain">
+            <h3>some rain</h3>
+            <div class="highlow">
+                <h2 id="changetemp1">23.9&#176;</h2>
+                <h2 id="changetemp2"><span>18.3&#176;</span></h2>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Tomorrow</h2>
+            <img class="weathericon" src="some_sun.png" alt="A Sun">
+            <h3>some sun</h3>
+            <div class="highlow">
+                <h2 id="changetemp3">26.7&#176;</h2>
+                <h2 id="changetemp4"><span>18.9&#176;</span></h2>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Friday</h2>
+            <img class="weathericon" src="some_clouds.png" alt="A Cloud">
+            <h3>some clouds</h3>
+            <div class="highlow">
+                <h2 id="changetemp5">20.6&#176;</h2>
+                <h2 id="changetemp6"><span>16.1&#176;</span></h2>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Saturday</h2>
+            <img class="weathericon" src="some_sun.png" alt="A Sun">
+            <h3>some sun</h3>
+            <div class="highlow">
+                <h2 id="changetemp7">25.6&#176;</h2>
+                <h2 id="changetemp8"><span>20.1&#176;</span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="cookies">
+        <img src="cookie.png" alt="Cookie Bite">
+        <div id="cookiemessage">
+            <h2>Stop! Cookie Time</h2>
+            <p>We use cookies to track data and analyze our traffic. We also use them to personalize your experience for content and ads most relevant to you. <a href="#">Learn More</a></p>
+        </div>
+        <button id="acceptcookies" onclick="removeCookieMessage()">I Accept</button>
+    </div>
+    
+</body>
+</html>
